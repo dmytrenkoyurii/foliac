@@ -1,0 +1,344 @@
+body {
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.header {
+	background-image: url(../img/computer.png);
+	background-size: 100%;
+}
+
+.header__content {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header__logo {
+	float: left;
+	margin-top: 40px;
+}
+
+.header__nav {
+	float: right;
+	margin-top: 80px;
+	font-size: 12px;
+	font-family: "Lato";
+	color: rgb(255, 255, 255);
+}
+
+nav > a {
+	text-decoration: none;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.header__content--name {
+	text-align: center;
+	padding-top: 200px;
+	text-transform: uppercase;
+/*	font-family: "BigJohn"; */	
+	font-size: 44px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.header__content--subname {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "SlimJoe";
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	margin-top: 10px;
+}
+
+.header__btn {
+	text-align: center;
+}
+.header__btn--i {
+	font-size: 12px;
+	margin-bottom: 50px;
+	color: #48bf72;
+	border-color: #48bf72;
+	background-color: transparent;
+	border-radius: 2px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
+.header__btn--i:hover {
+    background-color: #48bf72;
+    color: white;
+}
+/*-----------------------------*/
+/*Main*/
+
+.main__nav {
+	text-align: center;
+}
+
+.main__nav--btn {
+	font-weight: bold;
+	font-family: "Lato";
+	border: none;
+	color: black;
+	padding: 5px 13px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 2px;
+}
+.main__nav--btn:hover {
+    background-color: #48bf72;
+    color: white;
+}
+
+
+.main__item {
+	width: 1140px;
+	height: 840px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main__item--1 {
+	border-radius: 10px;
+	width: 450px;
+	height: 300px;
+	position: absolute;
+}
+.main__item--2 {
+	border-radius: 10px;
+	width: 650px;
+	height: 435px;
+	position: absolute;
+	right: 0px;
+}
+.main__item--3 {
+	border-radius: 10px;
+	width: 450px;
+	height: 480px;
+	position: absolute;
+	bottom: 5px;
+}
+
+.main__item--4 {
+	border-radius: 10px;
+	width: 650px;
+	height: 350px;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+/*---------------------*/
+
+.about {
+	background-image: url(../img/men-computer.png);
+	background-size: 100%;
+}
+
+.about__content {
+	width: 1140px;
+	margin: 0 auto;
+}
+.about__content {
+	width: 420px;
+	margin-left: 50%;
+    margin-right: 20%;
+}
+.about__content h3 {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding-top: 60px;
+}
+.about--span {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.about__content p {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	line-height: 1.45;
+}
+.about__btn {
+	border-radius: 3px;
+	border-width: 2px;
+	border-color:  #3c4955;
+	border-style: solid;
+	width: 148px;
+	height: 35px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-transform: uppercase;
+	background-color: transparent;
+	margin-top: 10px;
+    margin-bottom: 40px;
+}
+.about__btn:hover {
+    background-color: #3c4955;;
+    color: white;
+}
+/*-------------------------------*/
+
+.contact {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact h3 {
+	font-family: BigJohn;
+	color:  #48bf72;
+	font-size: 26px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.contact__form1, .contact__form2 {
+	padding-bottom: 0px;
+    padding-top: 0px;
+    border-left-width: 2px;
+	border-radius: 6px;
+	border-width: 2px;
+	border-color:  #3c4955;
+	border-style: solid;
+	background-color:  #f1f1f1;
+	padding-left: 70px;
+    width: 260px;
+	height: 50px;
+	background-repeat: no-repeat; /*Убираем повтор изображения*/ 
+    background-size: 17%;
+    outline: none;
+}
+.contact__form1 {
+	background-image: url(../img/form-img1.png);  
+margin-right: 31px;
+}
+.contact__form2 {
+	background-image: url(../img/form-img2.png);   
+}
+.contact__form3 {
+	padding-bottom: 0px;
+    border-left-width: 2px;
+	border-radius: 6px;
+	border-width: 2px;
+	padding-right: 0px;
+	border-color:  #3c4955;
+	border-style: solid;
+	background-color:  #f1f1f1;
+	padding-left: 70px;
+    width: 630px;
+	padding-top: 15px;
+    height: 210px;
+	background-image: url(../img/form-img3.png); 
+	background-repeat: no-repeat; /*Убираем повтор изображения*/ 
+    background-size: 8%;
+    outline: none;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.contact__btn {
+	border-radius: 5px;
+	background-color:  #48bf72;
+	width: 703px;
+	height: 50px;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border-color: #48bf72;
+	border-top-width: 3px;
+	border-left-width: 3px;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+
+}
+.contact__btn:hover {
+    background-color: white;
+    color: #48bf72;
+
+}
+/*-------------------------------*/
+footer {
+    background-color: #3c4955;
+	background-size: 100%;
+	height: 200px;
+}
+.footer {
+	margin-left: 200px;
+    margin-right: 200px;
+	padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer__copyright {
+	float: left;
+	margin-bottom: 70px;
+	color: white;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+}
+.footer__copyright a {
+	text-decoration: none;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;
+}
+.footer__social {
+	float: right;
+}
+.footer__btn {
+	float: right;
+	margin-bottom: 70px;
+	margin-left: 30px;
+}
+.footer__btn:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+/*-------------------------------*/
+/* Шрифти*/
+@font-face {
+font-family: "BigJohn";  
+src: url("../fonts/BigJohn.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+@font-face{
+ font-family: "SlimJoe";
+ src: url("../fonts/SlimJoe.otf") format("truetype");
+ font-style: normal; 
+font-weight: normal; 
+}
